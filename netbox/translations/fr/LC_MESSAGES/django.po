@@ -4090,11 +4090,11 @@ msgstr "Direction du flux d'air"
 
 #: netbox/dcim/forms/bulk_import.py:324
 msgid "Width must be set if not specifying a rack type."
-msgstr ""
+msgstr "La largeur doit être défini si le type de rack n'est pas défini."
 
 #: netbox/dcim/forms/bulk_import.py:326
 msgid "U height must be set if not specifying a rack type."
-msgstr ""
+msgstr "La hauteur (U) doit être défini si le type de rack n'est pas défini."
 
 #: netbox/dcim/forms/bulk_import.py:334
 msgid "Parent site"
@@ -4744,6 +4744,11 @@ msgid ""
 "code>). The token <code>{module}</code>, if present, will be automatically "
 "replaced with the position value when creating a new module."
 msgstr ""
+"Les plages alphanumériques sont prises en charge pour la création en masse. Les "
+"combinaisons de majuscules et minuscules ainsi que les types au sein d'une "
+"seule plage ne sont pas prises en charge (example: <code>[ge,xe]-0/0/[0-9]</"
+"code>). Le jeton <code>{module}</code>, s'il est présent, sera automatiquement "
+"remplacé par la valeur de position lors de la création d'un nouveau module."
 
 #: netbox/dcim/forms/model_forms.py:1094
 msgid "Console port template"
@@ -9445,11 +9450,11 @@ msgstr "Faites-en l'adresse IP principale de l'appareil attribué"
 
 #: netbox/ipam/forms/bulk_import.py:330
 msgid "Is out-of-band"
-msgstr ""
+msgstr "Est hors bande"
 
 #: netbox/ipam/forms/bulk_import.py:331
 msgid "Designate this as the out-of-band IP address for the assigned device"
-msgstr ""
+msgstr "Désignez ceci comme l'adresse IP hors bande pour le dispositif attribué"
 
 #: netbox/ipam/forms/bulk_import.py:371
 msgid "No device or virtual machine specified; cannot set as primary IP"
@@ -9460,10 +9465,12 @@ msgstr ""
 #: netbox/ipam/forms/bulk_import.py:375
 msgid "No device specified; cannot set as out-of-band IP"
 msgstr ""
+"Aucun dispositif spécifié ; impossible de définir comme adresse IP hors bande"
 
 #: netbox/ipam/forms/bulk_import.py:379
 msgid "Cannot set out-of-band IP for virtual machines"
 msgstr ""
+"Impossible de définir une adresse IP hors bande pour les machines virtuelles"
 
 #: netbox/ipam/forms/bulk_import.py:383
 msgid "No interface specified; cannot set as primary IP"
@@ -9473,6 +9480,7 @@ msgstr ""
 #: netbox/ipam/forms/bulk_import.py:387
 msgid "No interface specified; cannot set as out-of-band IP"
 msgstr ""
+"Aucune interface spécifiée ; impossible de définir comme adresse IP hors bande"
 
 #: netbox/ipam/forms/bulk_import.py:422
 msgid "Auth type"
@@ -9646,7 +9654,7 @@ msgstr "Faites-en l'adresse IP principale de l'appareil/de la machine virtuelle"
 
 #: netbox/ipam/forms/model_forms.py:314
 msgid "Make this the out-of-band IP for the device"
-msgstr ""
+msgstr "Faites-en l'adresse IP hors bande pour l'appareil"
 
 #: netbox/ipam/forms/model_forms.py:329
 msgid "NAT IP (Inside)"
@@ -9659,10 +9667,12 @@ msgstr "Une adresse IP ne peut être attribuée qu'à un seul objet."
 #: netbox/ipam/forms/model_forms.py:398
 msgid "Cannot reassign primary IP address for the parent device/VM"
 msgstr ""
+"Impossible de réaffecter l'adresse IP primaire pour l'appareil / VM parent"
 
 #: netbox/ipam/forms/model_forms.py:402
 msgid "Cannot reassign out-of-Band IP address for the parent device"
 msgstr ""
+"Impossible de réaffecter l'adresse IP hors bande pour le dispositif principal"
 
 #: netbox/ipam/forms/model_forms.py:412
 msgid ""
@@ -9676,6 +9686,8 @@ msgid ""
 "Only IP addresses assigned to a device interface can be designated as the out-"
 "of-band IP for a device."
 msgstr ""
+"Uniquement les adresses IP attribuées à une interface de dispositif peuvent "
+"être désignées comme l'adresse IP hors bande pour un appareil"
 
 #: netbox/ipam/forms/model_forms.py:508
 msgid "Virtual IP Address"
@@ -10075,11 +10087,13 @@ msgstr "Impossible de définir scope_id sans scope_type."
 #, python-brace-format
 msgid "Starting VLAN ID in range ({value}) cannot be less than {minimum}"
 msgstr ""
+"Démarrer VLAN ID dans la plage ({value}) ne peut pas être en-dessous de "
+"{minimum}"
 
 #: netbox/ipam/models/vlans.py:111
 #, python-brace-format
 msgid "Ending VLAN ID in range ({value}) cannot exceed {maximum}"
-msgstr ""
+msgstr "Terminer VLAN ID dans la plage ({value}) ne peut pas dépasser {maximum}"
 
 #: netbox/ipam/models/vlans.py:118
 #, python-brace-format
@@ -10087,6 +10101,8 @@ msgid ""
 "Ending VLAN ID in range must be greater than or equal to the starting VLAN ID "
 "({range})"
 msgstr ""
+"Terminer VLAN ID dans la plage doit être supérieur ou égal à la VLAN ID "
+"démarrer ({range})"
 
 #: netbox/ipam/models/vlans.py:124
 msgid "Ranges cannot overlap."
@@ -12433,11 +12449,11 @@ msgstr "Télécharger"
 #: netbox/templates/dcim/device/render_config.html:64
 #: netbox/templates/virtualization/virtualmachine/render_config.html:64
 msgid "Error rendering template"
-msgstr ""
+msgstr "Erreur rendu de modèle"
 
 #: netbox/templates/dcim/device/render_config.html:70
 msgid "No configuration template has been assigned for this device."
-msgstr ""
+msgstr "Aucun modèle de configuration n'as était assigné à cet appareil"
 
 #: netbox/templates/dcim/device_edit.html:44
 msgid "Parent Bay"
@@ -13295,7 +13311,7 @@ msgstr "Exécutez à nouveau"
 #: netbox/templates/extras/script_list.html:133
 #, python-format
 msgid "Could not load scripts from module %(module)s"
-msgstr ""
+msgstr "Impossible de charger les scripts depuis le module %(module)s"
 
 #: netbox/templates/extras/script_list.html:141
 msgid "No Scripts Found"
@@ -14101,7 +14117,7 @@ msgstr "Ajouter un disque virtuel"
 
 #: netbox/templates/virtualization/virtualmachine/render_config.html:70
 msgid "No configuration template has been assigned for this virtual machine."
-msgstr ""
+msgstr "Aucun modèle de configuration n'as était assigné à cet machine virtuelle"
 
 #: netbox/templates/vpn/ikepolicy.html:10
 #: netbox/templates/vpn/ipsecprofile.html:33 netbox/vpn/tables/crypto.py:166
