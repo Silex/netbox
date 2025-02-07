@@ -1635,7 +1635,7 @@ msgstr "Objet supprimé"
 
 #: netbox/core/events.py:30
 msgid "Job started"
-msgstr "Le travail a commencé"
+msgstr "Tâche commencée"
 
 #: netbox/core/events.py:31
 msgid "Job completed"
@@ -1643,11 +1643,11 @@ msgstr "Tâche terminée"
 
 #: netbox/core/events.py:32
 msgid "Job failed"
-msgstr "La tâche a échoué"
+msgstr "Tâche échouée"
 
 #: netbox/core/events.py:33
 msgid "Job errored"
-msgstr "Job erroné"
+msgstr "Tâche erronée"
 
 #: netbox/core/filtersets.py:53 netbox/extras/filtersets.py:250
 #: netbox/extras/filtersets.py:633 netbox/extras/filtersets.py:661
@@ -2161,11 +2161,11 @@ msgstr "ID de tâche"
 
 #: netbox/core/models/jobs.py:112
 msgid "job"
-msgstr "emploi"
+msgstr "tâche"
 
 #: netbox/core/models/jobs.py:113
 msgid "jobs"
-msgstr "emplois"
+msgstr "tâches"
 
 #: netbox/core/models/jobs.py:136
 #, python-brace-format
@@ -2357,37 +2357,37 @@ msgstr "Révision de configuration restaurée #{id}"
 #: netbox/core/views.py:412 netbox/core/views.py:455 netbox/core/views.py:531
 #, python-brace-format
 msgid "Job {job_id} not found"
-msgstr "Poste {job_id} introuvable"
+msgstr "Tâche {job_id} introuvable"
 
 #: netbox/core/views.py:463
 #, python-brace-format
 msgid "Job {id} has been deleted."
-msgstr "Poste {id} a été supprimé."
+msgstr "Tâche {id} a été supprimé."
 
 #: netbox/core/views.py:465
 #, python-brace-format
 msgid "Error deleting job {id}: {error}"
-msgstr "Erreur lors de la suppression du job {id}: {error}"
+msgstr "Erreur lors de la suppression de la tâche {id}: {error}"
 
 #: netbox/core/views.py:478 netbox/core/views.py:496
 #, python-brace-format
 msgid "Job {id} not found."
-msgstr "Poste {id} introuvable."
+msgstr "Tâche {id} introuvable."
 
 #: netbox/core/views.py:484
 #, python-brace-format
 msgid "Job {id} has been re-enqueued."
-msgstr "Poste {id} a été replacé dans la file d'attente."
+msgstr "Tâche {id} a été replacé dans la file d'attente."
 
 #: netbox/core/views.py:519
 #, python-brace-format
 msgid "Job {id} has been enqueued."
-msgstr "Poste {id} a été mis en file d'attente."
+msgstr "Tâche {id} a été mis en file d'attente."
 
 #: netbox/core/views.py:538
 #, python-brace-format
 msgid "Job {id} has been stopped."
-msgstr "Poste {id} a été arrêté."
+msgstr "Tâche {id} a été arrêtée."
 
 #: netbox/core/views.py:540
 #, python-brace-format
@@ -10624,7 +10624,7 @@ msgstr "Maintien des résultats professionnels"
 #: netbox/netbox/config/parameters.py:204
 msgid "Days to retain job result history (set to zero for unlimited)"
 msgstr ""
-"Jours pendant lesquels vous conservez l'historique des résultats du travail "
+"Jours pendant lesquels vous conservez l'historique des résultats de la tâche "
 "(défini sur zéro pour une durée illimitée)"
 
 #: netbox/netbox/config/parameters.py:209
@@ -11015,7 +11015,7 @@ msgstr "Webhooks"
 #: netbox/templates/extras/report/base.html:37
 #: netbox/templates/extras/script/base.html:36
 msgid "Jobs"
-msgstr "Emplois"
+msgstr "Tâches"
 
 #: netbox/netbox/navigation/menu.py:371
 msgid "Logging"
@@ -11899,12 +11899,12 @@ msgstr "Préférences de l'utilisateur"
 
 #: netbox/templates/core/inc/config_data.html:141
 msgid "Job retention"
-msgstr "Maintien de l'emploi"
+msgstr "Maintien de la tâche"
 
 #: netbox/templates/core/job.html:35 netbox/templates/core/rq_task.html:12
 #: netbox/templates/core/rq_task.html:49 netbox/templates/core/rq_task.html:58
 msgid "Job"
-msgstr "Emploi"
+msgstr "Tâche"
 
 #: netbox/templates/core/job.html:58 netbox/templates/extras/journalentry.html:26
 msgid "Created By"
@@ -12081,7 +12081,7 @@ msgstr "tâches dans "
 
 #: netbox/templates/core/rq_task_list.html:33
 msgid "Queued Jobs"
-msgstr "Jobs en file d'attente"
+msgstr "Tâche en file d'attente"
 
 #: netbox/templates/core/rq_task_list.html:64
 #: netbox/templates/extras/script_result.html:86
@@ -12106,11 +12106,11 @@ msgstr "Files d'attente"
 
 #: netbox/templates/core/rq_worker.html:63
 msgid "Curent Job"
-msgstr "Emplois actuels"
+msgstr "Tâches actuels"
 
 #: netbox/templates/core/rq_worker.html:67
 msgid "Successful job count"
-msgstr "Nombre d'emplois réussis"
+msgstr "Nombre de tâches réussies"
 
 #: netbox/templates/core/rq_worker.html:71
 msgid "Failed job count"
