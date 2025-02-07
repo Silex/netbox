@@ -2843,17 +2843,17 @@ msgstr "COMME (ID)"
 
 #: netbox/dcim/filtersets.py:246
 msgid "Parent location (ID)"
-msgstr "Lieu de résidence du parent (ID)"
+msgstr "Emplacement du parent (ID)"
 
 #: netbox/dcim/filtersets.py:252
 msgid "Parent location (slug)"
-msgstr "Localisation du parent (slug)"
+msgstr "Emplacement du parent (slug)"
 
 #: netbox/dcim/filtersets.py:258 netbox/dcim/filtersets.py:369
 #: netbox/dcim/filtersets.py:490 netbox/dcim/filtersets.py:1057
 #: netbox/dcim/filtersets.py:1404 netbox/dcim/filtersets.py:2182
 msgid "Location (ID)"
-msgstr "Lieu (ID)"
+msgstr "Emplacement (ID)"
 
 #: netbox/dcim/filtersets.py:265 netbox/dcim/filtersets.py:376
 #: netbox/dcim/filtersets.py:497 netbox/dcim/filtersets.py:1410
@@ -4171,7 +4171,7 @@ msgstr "Cluster de virtualisation"
 
 #: netbox/dcim/forms/bulk_import.py:572
 msgid "Assigned location (if any)"
-msgstr "Emplacement attribué (le cas échéant)"
+msgstr "Emplacement attribué (si existant)"
 
 #: netbox/dcim/forms/bulk_import.py:579
 msgid "Assigned rack (if any)"
@@ -6476,13 +6476,12 @@ msgstr "emplacement"
 
 #: netbox/dcim/models/sites.py:323
 msgid "locations"
-msgstr "les lieux"
+msgstr "emplacements"
 
 #: netbox/dcim/models/sites.py:337
 #, python-brace-format
 msgid "Parent location ({parent}) must belong to the same site ({site})."
-msgstr ""
-"Lieu de résidence du parent ({parent}) doit appartenir au même site ({site})."
+msgstr "Emplacement du parent ({parent}) doit appartenir au même site ({site})."
 
 #: netbox/dcim/tables/cables.py:55
 msgid "Termination A"
@@ -6502,11 +6501,11 @@ msgstr "Appareil B"
 
 #: netbox/dcim/tables/cables.py:78
 msgid "Location A"
-msgstr "Lieu A"
+msgstr "Emplacement A"
 
 #: netbox/dcim/tables/cables.py:84
 msgid "Location B"
-msgstr "Lieu B"
+msgstr "Emplacement B"
 
 #: netbox/dcim/tables/cables.py:90
 msgid "Rack A"
@@ -7708,7 +7707,7 @@ msgstr "Groupes de sites"
 #: netbox/extras/forms/filtersets.py:356 netbox/extras/forms/model_forms.py:522
 #: netbox/netbox/navigation/menu.py:20 netbox/templates/dcim/site.html:127
 msgid "Locations"
-msgstr "Localisations"
+msgstr "Emplacements"
 
 #: netbox/extras/forms/filtersets.py:361 netbox/extras/forms/model_forms.py:527
 msgid "Device types"
@@ -12709,15 +12708,15 @@ msgstr "Identifiant de la pièce"
 
 #: netbox/templates/dcim/location.html:17
 msgid "Add Child Location"
-msgstr "Ajouter la localisation de l'enfant"
+msgstr "Ajouter l'emplacement enfant"
 
 #: netbox/templates/dcim/location.html:77
 msgid "Child Locations"
-msgstr "Localisations des enfants"
+msgstr "Emplacements des enfants"
 
 #: netbox/templates/dcim/location.html:81 netbox/templates/dcim/site.html:131
 msgid "Add a Location"
-msgstr "Ajouter un lieu"
+msgstr "Ajouter un emplacement"
 
 #: netbox/templates/dcim/location.html:94 netbox/templates/dcim/site.html:144
 msgid "Add a Device"
