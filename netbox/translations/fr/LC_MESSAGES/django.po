@@ -1840,7 +1840,7 @@ msgstr ""
 #: netbox/core/forms/model_forms.py:153
 #: netbox/templates/dcim/rack_elevation_list.html:6
 msgid "Rack Elevations"
-msgstr "Élévations des baies"
+msgstr "Élévations des racks"
 
 #: netbox/core/forms/model_forms.py:157 netbox/dcim/choices.py:1520
 #: netbox/dcim/forms/bulk_edit.py:984 netbox/dcim/forms/bulk_edit.py:1372
@@ -2879,11 +2879,11 @@ msgstr "Fabricant (slug)"
 
 #: netbox/dcim/filtersets.py:393
 msgid "Rack type (slug)"
-msgstr "Type de baie (slug)"
+msgstr "Type de rack (slug)"
 
 #: netbox/dcim/filtersets.py:397
 msgid "Rack type (ID)"
-msgstr "Type de baie (ID)"
+msgstr "Type de rack (ID)"
 
 #: netbox/dcim/filtersets.py:411 netbox/dcim/filtersets.py:892
 #: netbox/dcim/filtersets.py:994 netbox/dcim/filtersets.py:1850
@@ -2903,7 +2903,7 @@ msgstr "Rôle (slug)"
 #: netbox/dcim/filtersets.py:447 netbox/dcim/filtersets.py:1062
 #: netbox/dcim/filtersets.py:1415 netbox/dcim/filtersets.py:2244
 msgid "Rack (ID)"
-msgstr "Baie (ID)"
+msgstr "Rack (ID)"
 
 #: netbox/dcim/filtersets.py:507 netbox/extras/filtersets.py:293
 #: netbox/extras/filtersets.py:337 netbox/extras/filtersets.py:359
@@ -3025,7 +3025,7 @@ msgstr "Nom du site (slug)"
 
 #: netbox/dcim/filtersets.py:1067
 msgid "Parent bay (ID)"
-msgstr "Enfant parent (ID)"
+msgstr "Rack parent (ID)"
 
 #: netbox/dcim/filtersets.py:1071
 msgid "VM cluster (ID)"
@@ -3114,7 +3114,7 @@ msgstr "Appareil (ID)"
 
 #: netbox/dcim/filtersets.py:1421
 msgid "Rack (name)"
-msgstr "Baie (nom)"
+msgstr "Rack (nom)"
 
 #: netbox/dcim/filtersets.py:1431 netbox/ipam/filtersets.py:608
 #: netbox/ipam/filtersets.py:848 netbox/ipam/filtersets.py:1123
@@ -3462,7 +3462,7 @@ msgstr "Unité de poids"
 #: netbox/dcim/forms/model_forms.py:217 netbox/dcim/forms/model_forms.py:256
 #: netbox/templates/dcim/rack.html:45 netbox/templates/dcim/racktype.html:13
 msgid "Rack Type"
-msgstr "Type de baie"
+msgstr "Type de rack"
 
 #: netbox/dcim/forms/bulk_edit.py:299 netbox/dcim/forms/model_forms.py:220
 #: netbox/dcim/forms/model_forms.py:297
@@ -3526,7 +3526,7 @@ msgstr "Rôle"
 #: netbox/dcim/forms/bulk_edit.py:363 netbox/dcim/forms/bulk_import.py:260
 #: netbox/dcim/forms/filtersets.py:380
 msgid "Rack type"
-msgstr "Type de baie"
+msgstr "Type de rack"
 
 #: netbox/dcim/forms/bulk_edit.py:370 netbox/dcim/forms/bulk_edit.py:718
 #: netbox/dcim/forms/bulk_edit.py:779 netbox/templates/dcim/device.html:104
@@ -3574,7 +3574,7 @@ msgstr "Débit d'air"
 #: netbox/templates/dcim/rackreservation.html:36
 #: netbox/virtualization/forms/model_forms.py:113
 msgid "Rack"
-msgstr "Baie"
+msgstr "Rack"
 
 #: netbox/dcim/forms/bulk_edit.py:450 netbox/dcim/forms/bulk_edit.py:744
 #: netbox/dcim/forms/filtersets.py:325 netbox/dcim/forms/filtersets.py:398
@@ -4053,11 +4053,11 @@ msgstr "Emplacement introuvable."
 
 #: netbox/dcim/forms/bulk_import.py:185
 msgid "The manufacturer of this rack type"
-msgstr "Le fabricant de ce type de baie"
+msgstr "Le fabricant de ce type de rack"
 
 #: netbox/dcim/forms/bulk_import.py:196
 msgid "The lowest-numbered position in the rack"
-msgstr "La position la plus basse de la baie"
+msgstr "La position la plus basse du rack"
 
 #: netbox/dcim/forms/bulk_import.py:201 netbox/dcim/forms/bulk_import.py:276
 msgid "Rail-to-rail width (in inches)"
@@ -4069,7 +4069,7 @@ msgstr "Unité pour les dimensions extérieures"
 
 #: netbox/dcim/forms/bulk_import.py:213 netbox/dcim/forms/bulk_import.py:298
 msgid "Unit for rack weights"
-msgstr "Unité de poids de la baie"
+msgstr "Unité de poids du rack"
 
 #: netbox/dcim/forms/bulk_import.py:245
 msgid "Name of assigned tenant"
@@ -4081,7 +4081,7 @@ msgstr "Nom du rôle attribué"
 
 #: netbox/dcim/forms/bulk_import.py:264
 msgid "Rack type model"
-msgstr "Modèle de baie"
+msgstr "Modèle de rack"
 
 #: netbox/dcim/forms/bulk_import.py:292 netbox/dcim/forms/bulk_import.py:435
 #: netbox/dcim/forms/bulk_import.py:605
@@ -4102,7 +4102,7 @@ msgstr "Site parent"
 
 #: netbox/dcim/forms/bulk_import.py:341 netbox/dcim/forms/bulk_import.py:1377
 msgid "Rack's location (if any)"
-msgstr "Emplacement de la baie (le cas échéant)"
+msgstr "Emplacement du rack (si existant)"
 
 #: netbox/dcim/forms/bulk_import.py:350 netbox/dcim/forms/model_forms.py:311
 #: netbox/dcim/tables/racks.py:222 netbox/templates/dcim/rackreservation.html:12
@@ -4175,7 +4175,7 @@ msgstr "Emplacement attribué (si existant)"
 
 #: netbox/dcim/forms/bulk_import.py:579
 msgid "Assigned rack (if any)"
-msgstr "Baie attribuée (le cas échéant)"
+msgstr "Rack attribué (si existant)"
 
 #: netbox/dcim/forms/bulk_import.py:582
 msgid "Face"
@@ -4183,7 +4183,7 @@ msgstr "Visage"
 
 #: netbox/dcim/forms/bulk_import.py:585
 msgid "Mounted rack face"
-msgstr "Face montée en baie"
+msgstr "Face du rack montée"
 
 #: netbox/dcim/forms/bulk_import.py:592
 msgid "Parent device (for child devices)"
@@ -4205,11 +4205,11 @@ msgstr "L'appareil sur lequel ce module est installé"
 
 #: netbox/dcim/forms/bulk_import.py:669 netbox/dcim/forms/model_forms.py:640
 msgid "Module bay"
-msgstr "Baie modulaire"
+msgstr "Module de rack"
 
 #: netbox/dcim/forms/bulk_import.py:672
 msgid "The module bay in which this module is installed"
-msgstr "La baie du module dans laquelle ce module est installé"
+msgstr "Le module de rack dans laquelle ce module est installé"
 
 #: netbox/dcim/forms/bulk_import.py:678
 msgid "The type of module"
@@ -4346,11 +4346,11 @@ msgstr "Appareil installé"
 
 #: netbox/dcim/forms/bulk_import.py:1054
 msgid "Child device installed within this bay"
-msgstr "Appareil pour enfant installé dans cette baie"
+msgstr "Appareil enfant installé dans ce rack"
 
 #: netbox/dcim/forms/bulk_import.py:1056
 msgid "Child device not found."
-msgstr "Appareil pour enfant introuvable."
+msgstr "Appareil enfant introuvable."
 
 #: netbox/dcim/forms/bulk_import.py:1114
 msgid "Parent inventory item"
@@ -4682,7 +4682,7 @@ msgstr "Informations de contact"
 
 #: netbox/dcim/forms/model_forms.py:195 netbox/templates/dcim/rackrole.html:19
 msgid "Rack Role"
-msgstr "Role de la baie"
+msgstr "Role du rack"
 
 #: netbox/dcim/forms/model_forms.py:212 netbox/dcim/forms/model_forms.py:362
 #: netbox/dcim/forms/model_forms.py:446 netbox/utilities/forms/fields/fields.py:47
@@ -4692,7 +4692,7 @@ msgstr "Identifiant"
 #: netbox/dcim/forms/model_forms.py:259
 msgid "Select a pre-defined rack type, or set physical characteristics below."
 msgstr ""
-"Sélectionnez un type de baie prédéfini ou définissez les caractéristiques "
+"Sélectionnez un type de rack prédéfini ou définissez les caractéristiques "
 "physiques ci-dessous."
 
 #: netbox/dcim/forms/model_forms.py:265
@@ -4872,8 +4872,8 @@ msgid ""
 "Child devices must first be created and assigned to the site and rack of the "
 "parent device."
 msgstr ""
-"Les appareils enfants doivent d'abord être créés et affectés au site et à la "
-"baie de l'appareil parent."
+"Les appareils enfants doivent d'abord être créés et affectés au site et au rack "
+"de l'appareil parent."
 
 #: netbox/dcim/forms/model_forms.py:1534
 msgid "Console port"
@@ -5652,11 +5652,11 @@ msgstr ""
 
 #: netbox/dcim/models/device_components.py:1120
 msgid "module bay"
-msgstr "baie modulaire"
+msgstr "module de rack"
 
 #: netbox/dcim/models/device_components.py:1121
 msgid "module bays"
-msgstr "baies de modules"
+msgstr "module de racks"
 
 #: netbox/dcim/models/device_components.py:1138 netbox/dcim/models/devices.py:1224
 msgid "A module bay cannot belong to a module installed within it."
@@ -5781,8 +5781,7 @@ msgstr "exclure de l'utilisation"
 
 #: netbox/dcim/models/devices.py:112
 msgid "Devices of this type are excluded when calculating rack utilization."
-msgstr ""
-"Les appareils de ce type sont exclus du calcul de l'utilisation des baies."
+msgstr "Les appareils de ce type sont exclus du calcul de l'utilisation du rack."
 
 #: netbox/dcim/models/devices.py:116
 msgid "is full depth"
@@ -5790,7 +5789,7 @@ msgstr "est en pleine profondeur"
 
 #: netbox/dcim/models/devices.py:117
 msgid "Device consumes both front and rear rack faces."
-msgstr "L'appareil consomme à la fois les faces avant et arrière de la baie."
+msgstr "L'appareil utilise à la fois les faces avant et arrière du rack."
 
 #: netbox/dcim/models/devices.py:123
 msgid "parent/child status"
@@ -5820,7 +5819,7 @@ msgstr "types d'appareils"
 
 #: netbox/dcim/models/devices.py:290
 msgid "U height must be in increments of 0.5 rack units."
-msgstr "La hauteur en U doit être exprimée par incréments de 0,5 unité baie."
+msgstr "La hauteur en U doit être exprimée par incréments de 0,5 unité de rack."
 
 #: netbox/dcim/models/devices.py:307
 #, python-brace-format
@@ -5828,8 +5827,8 @@ msgid ""
 "Device {device} in rack {rack} does not have sufficient space to accommodate a "
 "height of {height}U"
 msgstr ""
-"Appareil {device} en baie {rack} ne dispose pas de suffisamment d'espace pour "
-"accueillir une hauteur de {height}U"
+"Appareil {device} dans le rack {rack} ne dispose pas de suffisamment d'espace "
+"pour accueillir une hauteur de {height}U"
 
 #: netbox/dcim/models/devices.py:322
 #, python-brace-format
@@ -5904,7 +5903,7 @@ msgstr "position (U)"
 
 #: netbox/dcim/models/devices.py:650
 msgid "rack face"
-msgstr "face de la baie"
+msgstr "face du rack"
 
 #: netbox/dcim/models/devices.py:670 netbox/dcim/models/devices.py:1420
 #: netbox/virtualization/models/virtualmachines.py:100
@@ -5964,7 +5963,7 @@ msgstr "appareils"
 #: netbox/dcim/models/devices.py:835
 #, python-brace-format
 msgid "Rack {rack} does not belong to site {site}."
-msgstr "La baie {rack} n'appartient pas au site {site}."
+msgstr "Le rack {rack} n'appartient pas au site {site}."
 
 #: netbox/dcim/models/devices.py:840
 #, python-brace-format
@@ -5974,41 +5973,41 @@ msgstr "Emplacement {location} n'appartient pas au site {site}."
 #: netbox/dcim/models/devices.py:846
 #, python-brace-format
 msgid "Rack {rack} does not belong to location {location}."
-msgstr "La baie {rack} n'appartient pas au lieu {location}."
+msgstr "Le rack {rack} n'appartient pas au lieu {location}."
 
 #: netbox/dcim/models/devices.py:853
 msgid "Cannot select a rack face without assigning a rack."
 msgstr ""
-"Impossible de sélectionner la face de baie sans d'abord attribuer une baie."
+"Impossible de sélectionner la face de rack sans d'abord attribuer un rack."
 
 #: netbox/dcim/models/devices.py:857
 msgid "Cannot select a rack position without assigning a rack."
 msgstr ""
-"Impossible de sélectionner une position en baie sans l'attribuer en premier "
-"dans une baie."
+"Impossible de sélectionner une position de rack sans l'attribuer en premier "
+"dans un rack."
 
 #: netbox/dcim/models/devices.py:863
 msgid "Position must be in increments of 0.5 rack units."
-msgstr "La position doit être exprimée par incréments de 0,5 unité de baie."
+msgstr "La position doit être exprimée par incréments de 0,5 unité de rack"
 
 #: netbox/dcim/models/devices.py:867
 msgid "Must specify rack face when defining rack position."
 msgstr ""
-"Doit spécifier la face de la baie lors de la définition de la position en baie."
+"Doit spécifier la face du rack lors de la définition de la position du rack."
 
 #: netbox/dcim/models/devices.py:875
 #, python-brace-format
 msgid "A 0U device type ({device_type}) cannot be assigned to a rack position."
 msgstr ""
 "Un appareil de type 0U ({device_type}) ne peut pas être attribué à une position "
-"en baie."
+"de rack."
 
 #: netbox/dcim/models/devices.py:886
 msgid ""
 "Child device types cannot be assigned to a rack face. This is an attribute of "
 "the parent device."
 msgstr ""
-"Les appareils de type enfant ne peuvent pas être attribués à une face de baie. "
+"Les appareils de type enfant ne peuvent pas être attribués à une face de rack. "
 "Il s'agit d'un attribut de l'appareil parent."
 
 #: netbox/dcim/models/devices.py:893
@@ -6016,8 +6015,8 @@ msgid ""
 "Child device types cannot be assigned to a rack position. This is an attribute "
 "of the parent device."
 msgstr ""
-"Les appareils de type enfant ne peuvent pas être affectés à une position en "
-"baie. Il s'agit d'un attribut de l'appareil parent."
+"Les appareils de type enfant ne peuvent pas être affectés à une position du "
+"rack. Il s'agit d'un attribut de l'appareil parent."
 
 #: netbox/dcim/models/devices.py:907
 #, python-brace-format
@@ -6213,7 +6212,7 @@ msgid ""
 "Rack {rack} ({rack_site}) and power panel {powerpanel} ({powerpanel_site}) are "
 "in different sites."
 msgstr ""
-"Baie {rack} ({rack_site}) et panneau d'alimentation {powerpanel} "
+"Rack {rack} ({rack_site}) et panneau d'alimentation {powerpanel} "
 "({powerpanel_site}) se trouvent sur des sites différents."
 
 #: netbox/dcim/models/power.py:190
@@ -6231,7 +6230,7 @@ msgstr "Largeur rail à rail"
 
 #: netbox/dcim/models/racks.py:56
 msgid "Height in rack units"
-msgstr "Hauteur en U de la baie"
+msgstr "Hauteur en U du rack"
 
 #: netbox/dcim/models/racks.py:60
 msgid "starting unit"
@@ -6239,7 +6238,7 @@ msgstr "unité de départ"
 
 #: netbox/dcim/models/racks.py:62
 msgid "Starting unit for rack"
-msgstr "Unité de départ pour baie"
+msgstr "Unité de départ pour le rack"
 
 #: netbox/dcim/models/racks.py:66
 msgid "descending units"
@@ -6255,7 +6254,7 @@ msgstr "largeur extérieure"
 
 #: netbox/dcim/models/racks.py:75
 msgid "Outer dimension of rack (width)"
-msgstr "Dimension extérieure de la baie (largeur)"
+msgstr "Dimension extérieure du rack (largeur)"
 
 #: netbox/dcim/models/racks.py:78
 msgid "outer depth"
@@ -6263,7 +6262,7 @@ msgstr "profondeur extérieure"
 
 #: netbox/dcim/models/racks.py:81
 msgid "Outer dimension of rack (depth)"
-msgstr "Dimension extérieure de la baie (profondeur)"
+msgstr "Dimension extérieure du rack (profondeur)"
 
 #: netbox/dcim/models/racks.py:84
 msgid "outer unit"
@@ -6278,7 +6277,7 @@ msgid ""
 "Maximum depth of a mounted device, in millimeters. For four-post racks, this is "
 "the distance between the front and rear rails."
 msgstr ""
-"Profondeur maximale d'un appareil monté, en millimètres. Pour les supports à "
+"Profondeur maximale d'un appareil monté, en millimètres. Pour les racks à "
 "quatre montants, il s'agit de la distance entre les rails avant et arrière."
 
 #: netbox/dcim/models/racks.py:102
@@ -6287,7 +6286,7 @@ msgstr "poids maximum"
 
 #: netbox/dcim/models/racks.py:105
 msgid "Maximum load capacity for the rack"
-msgstr "Capacité de charge maximale de la baie"
+msgstr "Capacité de charge maximale du rack"
 
 #: netbox/dcim/models/racks.py:125 netbox/dcim/models/racks.py:252
 msgid "form factor"
@@ -6295,11 +6294,11 @@ msgstr "facteur de forme"
 
 #: netbox/dcim/models/racks.py:162
 msgid "rack type"
-msgstr "type de baie"
+msgstr "type de rack"
 
 #: netbox/dcim/models/racks.py:163
 msgid "rack types"
-msgstr "types de baies"
+msgstr "types de racks"
 
 #: netbox/dcim/models/racks.py:180 netbox/dcim/models/racks.py:379
 msgid "Must specify a unit when setting an outer width/depth"
@@ -6312,11 +6311,11 @@ msgstr "Doit spécifier une unité lors de la définition d'un poids maximum"
 
 #: netbox/dcim/models/racks.py:230
 msgid "rack role"
-msgstr "rôle de la baie"
+msgstr "role du rack"
 
 #: netbox/dcim/models/racks.py:231
 msgid "rack roles"
-msgstr "rôles de la baie"
+msgstr "rôles du rack"
 
 #: netbox/dcim/models/racks.py:274
 msgid "facility ID"
@@ -6335,15 +6334,15 @@ msgstr "Rôle fonctionnel"
 
 #: netbox/dcim/models/racks.py:321
 msgid "A unique tag used to identify this rack"
-msgstr "Une étiquette unique utilisée pour identifier cette baie"
+msgstr "Une étiquette unique utilisée pour identifier ce rack"
 
 #: netbox/dcim/models/racks.py:359
 msgid "rack"
-msgstr "baie"
+msgstr "rack"
 
 #: netbox/dcim/models/racks.py:360
 msgid "racks"
-msgstr "baies"
+msgstr "racks"
 
 #: netbox/dcim/models/racks.py:375
 #, python-brace-format
@@ -6355,7 +6354,7 @@ msgstr "L'emplacement attribué doit appartenir au site parent ({site})."
 msgid ""
 "Rack must be at least {min_height}U tall to house currently installed devices."
 msgstr ""
-"La baie doit être au moins {min_height} pour héberger les appareils "
+"Le rack doit être au moins {min_height} pour héberger les appareils "
 "actuellement installés."
 
 #: netbox/dcim/models/racks.py:400
@@ -6364,7 +6363,7 @@ msgid ""
 "Rack unit numbering must begin at {position} or less to house currently "
 "installed devices."
 msgstr ""
-"La numérotation des unités de baie doit commencer à {position} ou moins pour "
+"La numérotation des unités de rack doit commencer à {position} ou moins pour "
 "héberger les appareils actuellement installés."
 
 #: netbox/dcim/models/racks.py:408
@@ -6378,16 +6377,16 @@ msgstr "des unités"
 
 #: netbox/dcim/models/racks.py:696
 msgid "rack reservation"
-msgstr "réservation de baie"
+msgstr "réservation de rack"
 
 #: netbox/dcim/models/racks.py:697
 msgid "rack reservations"
-msgstr "réservations de baies"
+msgstr "réservations de rack"
 
 #: netbox/dcim/models/racks.py:714
 #, python-brace-format
 msgid "Invalid unit(s) for {height}U rack: {unit_list}"
-msgstr "Unité(s) non valide(s) pour une baie à {height}U : {unit_list}"
+msgstr "Unité(s) non valide(s) pour un rack de {height}U : {unit_list}"
 
 #: netbox/dcim/models/racks.py:727
 #, python-brace-format
@@ -6509,11 +6508,11 @@ msgstr "Emplacement B"
 
 #: netbox/dcim/tables/cables.py:90
 msgid "Rack A"
-msgstr "Baie A"
+msgstr "Rack A"
 
 #: netbox/dcim/tables/cables.py:96
 msgid "Rack B"
-msgstr "Baie B"
+msgstr "Rack B"
 
 #: netbox/dcim/tables/cables.py:102
 msgid "Site A"
@@ -6869,7 +6868,7 @@ msgstr "Puissance disponible (VA)"
 #: netbox/netbox/navigation/menu.py:43 netbox/netbox/navigation/menu.py:47
 #: netbox/netbox/navigation/menu.py:49
 msgid "Racks"
-msgstr "Baies"
+msgstr "Racks"
 
 #: netbox/dcim/tables/racks.py:63 netbox/dcim/tables/racks.py:142
 #: netbox/templates/dcim/device.html:318
@@ -6919,7 +6918,7 @@ msgstr "Réservations"
 #: netbox/dcim/views.py:757 netbox/templates/dcim/location.html:90
 #: netbox/templates/dcim/site.html:140
 msgid "Non-Racked Devices"
-msgstr "Appareils non mis en baie"
+msgstr "Appareils non mis en rack"
 
 #: netbox/dcim/views.py:2086 netbox/extras/forms/model_forms.py:577
 #: netbox/templates/extras/configcontext.html:10
@@ -10502,21 +10501,21 @@ msgstr "Préférez les adresses IPv4 à IPv6"
 
 #: netbox/netbox/config/parameters.py:84
 msgid "Rack unit height"
-msgstr "Hauteur de la baie"
+msgstr "Unité hauteur du rack"
 
 #: netbox/netbox/config/parameters.py:86
 msgid "Default unit height for rendered rack elevations"
 msgstr ""
-"Valeur par défaut du nombre d'unités pour les élévations des baies affichées"
+"Valeur par défaut du nombre d'unités pour les élévations de rack affichées"
 
 #: netbox/netbox/config/parameters.py:91
 msgid "Rack unit width"
-msgstr "Largeur de l'unité de la baie"
+msgstr "Unité de largeur du rack"
 
 #: netbox/netbox/config/parameters.py:93
 msgid "Default unit width for rendered rack elevations"
 msgstr ""
-"Valeur par défaut de la largeur des unités pour les élévations des baies "
+"Valeur par défaut de la largeur des unités pour les élévations des racks "
 "affichées"
 
 #: netbox/netbox/config/parameters.py:100
@@ -10762,7 +10761,7 @@ msgstr "Associer des contacts"
 
 #: netbox/netbox/navigation/menu.py:50
 msgid "Rack Roles"
-msgstr "Rôles de la baie"
+msgstr "Rôles du rack"
 
 #: netbox/netbox/navigation/menu.py:54
 msgid "Elevations"
@@ -10770,7 +10769,7 @@ msgstr "Élévations"
 
 #: netbox/netbox/navigation/menu.py:60 netbox/netbox/navigation/menu.py:62
 msgid "Rack Types"
-msgstr "Types de baie"
+msgstr "Types de rack"
 
 #: netbox/netbox/navigation/menu.py:76
 msgid "Modules"
@@ -11854,7 +11853,7 @@ msgstr "Dossiers"
 
 #: netbox/templates/core/inc/config_data.html:7
 msgid "Rack elevations"
-msgstr "Positions en baie"
+msgstr "Elévation de rack"
 
 #: netbox/templates/core/inc/config_data.html:10
 msgid "Default unit height"
@@ -12264,11 +12263,11 @@ msgstr "Non connecté"
 
 #: netbox/templates/dcim/device.html:34
 msgid "Highlight device in rack"
-msgstr "Surligner l'appareil dans la baie"
+msgstr "Surligner l'appareil dans le rack"
 
 #: netbox/templates/dcim/device.html:55
 msgid "Not racked"
-msgstr "Pas mis en baie"
+msgstr "Pas mis en rack"
 
 #: netbox/templates/dcim/device.html:62 netbox/templates/dcim/site.html:94
 msgid "GPS Coordinates"
@@ -12614,7 +12613,7 @@ msgstr "Unités décroissantes"
 
 #: netbox/templates/dcim/inc/rack_elevation.html:3
 msgid "Rack elevation"
-msgstr "Position en baie"
+msgstr "Elévation de rack"
 
 #: netbox/templates/dcim/interface.html:17
 msgid "Add Child Interface"
@@ -12774,7 +12773,7 @@ msgstr "Espace utilisé"
 
 #: netbox/templates/dcim/rack.html:84 netbox/templates/dcim/racktype.html:44
 msgid "Rack Weight"
-msgstr "Poids de la baie"
+msgstr "Poids du rack"
 
 #: netbox/templates/dcim/rack.html:94 netbox/templates/dcim/racktype.html:54
 msgid "Maximum Weight"
@@ -12809,7 +12808,7 @@ msgstr "Afficher la liste"
 
 #: netbox/templates/dcim/rack_elevation_list.html:14
 msgid "Select rack view"
-msgstr "Sélectionnez la vue de la baie"
+msgstr "Sélectionnez la vue du rack"
 
 #: netbox/templates/dcim/rack_elevation_list.html:25
 msgid "Sort By"
@@ -12817,7 +12816,7 @@ msgstr "Trier par"
 
 #: netbox/templates/dcim/rack_elevation_list.html:74
 msgid "No Racks Found"
-msgstr "Aucune baie trouvée"
+msgstr "Aucun rack trouvé"
 
 #: netbox/templates/dcim/rack_list.html:8
 msgid "View Elevations"
@@ -12829,7 +12828,7 @@ msgstr "Détails de la réservation"
 
 #: netbox/templates/dcim/rackrole.html:10
 msgid "Add Rack"
-msgstr "Ajouter un baie"
+msgstr "Ajouter un rack"
 
 #: netbox/templates/dcim/rearport.html:50
 msgid "Positions"
@@ -12918,7 +12917,7 @@ msgstr "Édition d'un châssis virtuel %(name)s"
 
 #: netbox/templates/dcim/virtualchassis_edit.html:53
 msgid "Rack/Unit"
-msgstr "Baie/Unité"
+msgstr "Rack/Unité"
 
 #: netbox/templates/dcim/virtualchassis_remove_member.html:5
 msgid "Remove Virtual Chassis Member"
