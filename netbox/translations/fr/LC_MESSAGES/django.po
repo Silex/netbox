@@ -531,7 +531,7 @@ msgstr "Description"
 #: netbox/templates/circuits/providernetwork.html:20
 #: netbox/templates/dcim/inc/cable_termination.html:51
 msgid "Provider"
-msgstr "Prestataire"
+msgstr "Fournisseur"
 
 #: netbox/circuits/forms/bulk_edit.py:80 netbox/circuits/forms/filtersets.py:91
 #: netbox/templates/circuits/providernetwork.html:28
@@ -1823,7 +1823,7 @@ msgstr "Paramètres du backend"
 
 #: netbox/core/forms/model_forms.py:96
 msgid "File Upload"
-msgstr "Téléversement de fichiers"
+msgstr "Téléchargement de fichiers"
 
 #: netbox/core/forms/model_forms.py:108
 msgid "Cannot upload a file and sync from an existing file"
@@ -1881,7 +1881,7 @@ msgstr "Validation"
 #: netbox/core/forms/model_forms.py:164
 #: netbox/templates/account/preferences.html:6
 msgid "User Preferences"
-msgstr "Préférences de l'utilisateur"
+msgstr "Préférences utilisateur"
 
 #: netbox/core/forms/model_forms.py:167 netbox/dcim/forms/filtersets.py:732
 #: netbox/templates/core/inc/config_data.html:127
@@ -1925,7 +1925,7 @@ msgstr "action"
 
 #: netbox/core/models/change_logging.py:86
 msgid "pre-change data"
-msgstr "données de pré-modification"
+msgstr "données avant modification"
 
 #: netbox/core/models/change_logging.py:92
 msgid "post-change data"
@@ -1968,7 +1968,7 @@ msgstr "révision de configuration"
 
 #: netbox/core/models/config.py:37
 msgid "config revisions"
-msgstr "révisions de configuration"
+msgstr "révisions des configurations"
 
 #: netbox/core/models/config.py:41
 msgid "Default configuration"
@@ -2041,7 +2041,7 @@ msgstr "source de données"
 
 #: netbox/core/models/data.py:82
 msgid "data sources"
-msgstr "sources de données"
+msgstr "sources des données"
 
 #: netbox/core/models/data.py:122
 #, python-brace-format
@@ -2220,7 +2220,7 @@ msgstr "Est actif"
 
 #: netbox/core/tables/data.py:50 netbox/templates/core/datafile.html:31
 msgid "Path"
-msgstr "Sentier"
+msgstr "Chemin"
 
 #: netbox/core/tables/data.py:54 netbox/templates/extras/inc/result_pending.html:7
 msgid "Last updated"
@@ -2232,7 +2232,7 @@ msgstr "Dernière mise à jour"
 #: netbox/templates/dcim/virtualchassis_edit.html:52
 #: netbox/utilities/forms/forms.py:73 netbox/wireless/tables/wirelesslink.py:17
 msgid "ID"
-msgstr "IDENTIFIANT"
+msgstr "ID"
 
 #: netbox/core/tables/jobs.py:35
 msgid "Interval"
@@ -2757,7 +2757,7 @@ msgstr "Kilomètres"
 #: netbox/dcim/choices.py:1551 netbox/templates/dcim/cable_trace.html:65
 #: netbox/wireless/choices.py:498
 msgid "Meters"
-msgstr "Compteurs"
+msgstr "Mètres"
 
 #: netbox/dcim/choices.py:1552
 msgid "Centimeters"
@@ -2839,7 +2839,7 @@ msgstr "Groupe (slug)"
 
 #: netbox/dcim/filtersets.py:176 netbox/dcim/filtersets.py:181
 msgid "AS (ID)"
-msgstr "COMME (ID)"
+msgstr "AS (ID)"
 
 #: netbox/dcim/filtersets.py:246
 msgid "Parent location (ID)"
@@ -3901,7 +3901,7 @@ msgstr "Modules"
 #: netbox/dcim/forms/bulk_edit.py:1442 netbox/dcim/tables/devices.py:665
 #: netbox/templates/dcim/interface.html:110
 msgid "LAG"
-msgstr "DÉCALAGE"
+msgstr "DÉLAI"
 
 #: netbox/dcim/forms/bulk_edit.py:1447 netbox/dcim/forms/model_forms.py:1312
 msgid "Virtual device contexts"
@@ -4153,7 +4153,7 @@ msgstr "Fabricant du type d'appareil"
 
 #: netbox/dcim/forms/bulk_import.py:517
 msgid "Device type model"
-msgstr "Type d'appareil et modèle"
+msgstr "Modèle-type d'appareil"
 
 #: netbox/dcim/forms/bulk_import.py:524
 #: netbox/virtualization/forms/bulk_import.py:126
@@ -4179,7 +4179,7 @@ msgstr "Rack attribué (si existant)"
 
 #: netbox/dcim/forms/bulk_import.py:582
 msgid "Face"
-msgstr "Visage"
+msgstr "Face"
 
 #: netbox/dcim/forms/bulk_import.py:585
 msgid "Mounted rack face"
@@ -4270,7 +4270,7 @@ msgstr "Interface pontée"
 
 #: netbox/dcim/forms/bulk_import.py:869
 msgid "Lag"
-msgstr "Retard"
+msgstr "Délai"
 
 #: netbox/dcim/forms/bulk_import.py:873
 msgid "Parent LAG interface"
@@ -4298,7 +4298,7 @@ msgstr "Mode PoE"
 
 #: netbox/dcim/forms/bulk_import.py:901
 msgid "Poe type"
-msgstr "Type de poteau"
+msgstr "Type de PoE"
 
 #: netbox/dcim/forms/bulk_import.py:910
 #: netbox/virtualization/forms/bulk_import.py:168
@@ -4379,7 +4379,7 @@ msgstr "Composant introuvable : {device} - {component_name}"
 
 #: netbox/dcim/forms/bulk_import.py:1193
 msgid "Side A device"
-msgstr "Appareil côté A"
+msgstr "Appareil face A"
 
 #: netbox/dcim/forms/bulk_import.py:1196 netbox/dcim/forms/bulk_import.py:1214
 msgid "Device name"
@@ -4387,7 +4387,7 @@ msgstr "Nom de l'appareil"
 
 #: netbox/dcim/forms/bulk_import.py:1199
 msgid "Side A type"
-msgstr "Côté A type"
+msgstr "Type face A"
 
 #: netbox/dcim/forms/bulk_import.py:1202 netbox/dcim/forms/bulk_import.py:1220
 msgid "Termination type"
@@ -4403,11 +4403,11 @@ msgstr "Nom de terminaison"
 
 #: netbox/dcim/forms/bulk_import.py:1211
 msgid "Side B device"
-msgstr "Appareil Side B"
+msgstr "Appareil face B"
 
 #: netbox/dcim/forms/bulk_import.py:1217
 msgid "Side B type"
-msgstr "Type de face B"
+msgstr "Type face B"
 
 #: netbox/dcim/forms/bulk_import.py:1223
 msgid "Side B name"
@@ -4432,7 +4432,7 @@ msgstr "{side_upper} terminaison latérale introuvable : {device} {name}"
 #: netbox/templates/dcim/virtualchassis.html:27
 #: netbox/templates/dcim/virtualchassis.html:67
 msgid "Master"
-msgstr "Maître"
+msgstr "Principal"
 
 #: netbox/dcim/forms/bulk_import.py:1319
 msgid "Master device"
@@ -4574,7 +4574,7 @@ msgstr "Des images"
 #: netbox/dcim/forms/filtersets.py:486 netbox/dcim/forms/filtersets.py:611
 #: netbox/dcim/forms/filtersets.py:726
 msgid "Components"
-msgstr "Composantes"
+msgstr "Composants"
 
 #: netbox/dcim/forms/filtersets.py:506
 msgid "Subdevice role"
@@ -4687,7 +4687,7 @@ msgstr "Role du rack"
 #: netbox/dcim/forms/model_forms.py:212 netbox/dcim/forms/model_forms.py:362
 #: netbox/dcim/forms/model_forms.py:446 netbox/utilities/forms/fields/fields.py:47
 msgid "Slug"
-msgstr "Identifiant"
+msgstr "Slug"
 
 #: netbox/dcim/forms/model_forms.py:259
 msgid "Select a pre-defined rack type, or set physical characteristics below."
@@ -4865,7 +4865,7 @@ msgstr "Filtrez les VLAN disponibles pour une attribution par groupe."
 
 #: netbox/dcim/forms/model_forms.py:1491
 msgid "Child Device"
-msgstr "Appareil pour enfants"
+msgstr "Appareil enfant"
 
 #: netbox/dcim/forms/model_forms.py:1492
 msgid ""
@@ -6111,7 +6111,7 @@ msgstr ""
 
 #: netbox/dcim/models/devices.py:1409 netbox/vpn/models/l2vpn.py:37
 msgid "identifier"
-msgstr "identificateur"
+msgstr "identifiant"
 
 #: netbox/dcim/models/devices.py:1410
 msgid "Numeric identifier unique to the parent device"
@@ -7040,7 +7040,7 @@ msgstr "Désactivé"
 
 #: netbox/extras/choices.py:54
 msgid "Loose"
-msgstr "Relaxé"
+msgstr "Libre"
 
 #: netbox/extras/choices.py:55
 msgid "Exact"
