@@ -739,7 +739,7 @@ msgstr "Statut"
 #: netbox/wireless/forms/bulk_import.py:55 netbox/wireless/forms/bulk_import.py:97
 #: netbox/wireless/forms/filtersets.py:35 netbox/wireless/forms/filtersets.py:75
 msgid "Tenant"
-msgstr "Entité"
+msgstr "Client"
 
 #: netbox/circuits/forms/bulk_edit.py:147 netbox/circuits/forms/filtersets.py:174
 msgid "Install date"
@@ -777,7 +777,7 @@ msgstr "Paramètres du service"
 #: netbox/wireless/forms/model_forms.py:54
 #: netbox/wireless/forms/model_forms.py:170
 msgid "Tenancy"
-msgstr "Utilisateur"
+msgstr "Clients"
 
 #: netbox/circuits/forms/bulk_edit.py:193 netbox/circuits/forms/bulk_edit.py:217
 #: netbox/circuits/forms/model_forms.py:155 netbox/circuits/tables/circuits.py:117
@@ -865,7 +865,7 @@ msgstr "État opérationnel"
 #: netbox/vpn/forms/bulk_import.py:63 netbox/wireless/forms/bulk_import.py:59
 #: netbox/wireless/forms/bulk_import.py:101
 msgid "Assigned tenant"
-msgstr "Locataire associé"
+msgstr "Client associé"
 
 #: netbox/circuits/forms/bulk_import.py:120
 #: netbox/templates/circuits/inc/circuit_termination.html:6
@@ -3288,12 +3288,12 @@ msgstr "Master (nom)"
 
 #: netbox/dcim/filtersets.py:1939 netbox/tenancy/filtersets.py:245
 msgid "Tenant (ID)"
-msgstr "Locataire (ID)"
+msgstr "Client (ID)"
 
 #: netbox/dcim/filtersets.py:1945 netbox/extras/filtersets.py:618
 #: netbox/tenancy/filtersets.py:251
 msgid "Tenant (slug)"
-msgstr "Locataire (slug)"
+msgstr "Client (slug)"
 
 #: netbox/dcim/filtersets.py:1981 netbox/dcim/forms/filtersets.py:1077
 msgid "Unterminated"
@@ -4073,7 +4073,7 @@ msgstr "Unité de poids de la baie"
 
 #: netbox/dcim/forms/bulk_import.py:245
 msgid "Name of assigned tenant"
-msgstr "Nom du locataire associé"
+msgstr "Nom du client associé"
 
 #: netbox/dcim/forms/bulk_import.py:257
 msgid "Name of assigned role"
@@ -7398,12 +7398,12 @@ msgstr "Type de cluster (slug)"
 #: netbox/extras/filtersets.py:601 netbox/tenancy/forms/forms.py:16
 #: netbox/tenancy/forms/forms.py:39
 msgid "Tenant group"
-msgstr "Groupe de locataires"
+msgstr "Groupe de client"
 
 #: netbox/extras/filtersets.py:607 netbox/tenancy/filtersets.py:188
 #: netbox/tenancy/filtersets.py:208
 msgid "Tenant group (slug)"
-msgstr "Groupe de locataires (slug)"
+msgstr "Groupe de client (slug)"
 
 #: netbox/extras/filtersets.py:623 netbox/extras/forms/model_forms.py:495
 #: netbox/templates/extras/tag.html:11
@@ -7735,7 +7735,7 @@ msgstr "Clusters"
 
 #: netbox/extras/forms/filtersets.py:391 netbox/extras/forms/model_forms.py:557
 msgid "Tenant groups"
-msgstr "Groupes de locataires"
+msgstr "Groupes de client"
 
 #: netbox/extras/forms/model_forms.py:49
 msgid "The type(s) of object that have this custom field"
@@ -7886,7 +7886,7 @@ msgstr "Groupe de notifications"
 #: netbox/extras/forms/model_forms.py:562 netbox/netbox/navigation/menu.py:26
 #: netbox/tenancy/tables/tenants.py:22
 msgid "Tenants"
-msgstr "Locataires"
+msgstr "Clients"
 
 #: netbox/extras/forms/model_forms.py:606
 msgid "Data is populated from the remote source selected below."
@@ -10746,7 +10746,7 @@ msgstr "Groupes de sites"
 
 #: netbox/netbox/navigation/menu.py:27
 msgid "Tenant Groups"
-msgstr "Groupes de locataires"
+msgstr "Groupes de clients"
 
 #: netbox/netbox/navigation/menu.py:34
 msgid "Contact Groups"
@@ -13991,17 +13991,17 @@ msgstr "Ajouter un contact"
 
 #: netbox/templates/tenancy/tenantgroup.html:17
 msgid "Add Tenant"
-msgstr "Ajouter un locataire"
+msgstr "Ajouter un client"
 
 #: netbox/templates/tenancy/tenantgroup.html:26
 #: netbox/tenancy/forms/model_forms.py:32 netbox/tenancy/tables/columns.py:51
 #: netbox/tenancy/tables/columns.py:61
 msgid "Tenant Group"
-msgstr "Groupe de locataires"
+msgstr "Groupe de client"
 
 #: netbox/templates/tenancy/tenantgroup.html:59
 msgid "Add Tenant Group"
-msgstr "Ajouter un groupe de locataires"
+msgstr "Ajouter un groupe de client"
 
 #: netbox/templates/users/group.html:39 netbox/templates/users/user.html:63
 msgid "Assigned Permissions"
@@ -14321,23 +14321,23 @@ msgstr "Groupe de contact"
 
 #: netbox/tenancy/filtersets.py:169
 msgid "Parent tenant group (ID)"
-msgstr "Groupe de parents locataires (ID)"
+msgstr "Groupe de client parent (ID)"
 
 #: netbox/tenancy/filtersets.py:175
 msgid "Parent tenant group (slug)"
-msgstr "Groupe de parents locataires (slug)"
+msgstr "Groupe de client parent (slug)"
 
 #: netbox/tenancy/filtersets.py:181 netbox/tenancy/filtersets.py:201
 msgid "Tenant group (ID)"
-msgstr "Groupe de locataires (ID)"
+msgstr "Groupe de client (ID)"
 
 #: netbox/tenancy/filtersets.py:234
 msgid "Tenant Group (ID)"
-msgstr "Groupe de locataires (ID)"
+msgstr "Groupe de client (ID)"
 
 #: netbox/tenancy/filtersets.py:241
 msgid "Tenant Group (slug)"
-msgstr "Groupe de locataires (slug)"
+msgstr "Groupe de client (slug)"
 
 #: netbox/tenancy/forms/bulk_edit.py:66
 msgid "Desciption"
@@ -14402,27 +14402,27 @@ msgstr "Les contacts ne peuvent pas être affectés à ce type d'objet ({type}).
 
 #: netbox/tenancy/models/tenants.py:32
 msgid "tenant group"
-msgstr "groupe de locataires"
+msgstr "groupe de client"
 
 #: netbox/tenancy/models/tenants.py:33
 msgid "tenant groups"
-msgstr "groupes de locataires"
+msgstr "groupes de clients"
 
 #: netbox/tenancy/models/tenants.py:70
 msgid "Tenant name must be unique per group."
-msgstr "Le nom du locataire doit être unique par groupe."
+msgstr "Le nom du client doit être unique par groupe."
 
 #: netbox/tenancy/models/tenants.py:80
 msgid "Tenant slug must be unique per group."
-msgstr "Le slug tenant doit être unique par groupe."
+msgstr "Le slug client doit être unique par groupe."
 
 #: netbox/tenancy/models/tenants.py:88
 msgid "tenant"
-msgstr "locataire"
+msgstr "client"
 
 #: netbox/tenancy/models/tenants.py:89
 msgid "tenants"
-msgstr "locataires"
+msgstr "clients"
 
 #: netbox/tenancy/tables/contacts.py:112
 msgid "Contact Title"
